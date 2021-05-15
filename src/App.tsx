@@ -18,6 +18,9 @@ interface GenreResponseProps {
   name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
   title: string;
 }
+interface teste{
+  teste: number;
+}
 
 interface MovieProps {
   imdbID: string;
